@@ -45,3 +45,60 @@ input {
     width: 200px;
 }
 
+section {
+    display: flex;
+
+}
+
+.historia-title {
+    background-color: #20b4ff;
+}
+
+.medicina-title {
+    background-color: #e7389d;
+
+}
+
+.esportes-title{
+    background-color: #ab3713;
+}
+
+.movies-ul {
+    background-color: #e7c038;
+    display: flex;
+    width: 100vw;
+    height: 375px;
+    margin: 0;
+    border-bottom: 2px solid black;
+}
+
+.movies-ul li{
+    margin: 10px;
+}
+
+.historia-title, .medicina-title, .esportes-title{
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 375px;
+    font-family: 'Corben', cursive;;
+    align-items: center;
+    justify-content: center;
+}
+
+.historia-title h1, .medicina-title h1, .esportes-title h1{
+    font-size: 48px;
+    margin: 0;
+}
+
+h5{
+    font-family: 'Montserrat', sans-serif;
+    width: 230px;
+    margin: 0;
+}
+
+.logo-h1{
+    text-align: center;
+}
